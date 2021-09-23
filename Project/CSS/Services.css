@@ -1,0 +1,85 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#block1,#block2,#block3{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+#block2{
+    top:80%;
+}
+#block3{
+    top:160%;
+}
+#image1,#image3{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    right: -400;
+    top:100;
+}
+#image2{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: -400;
+    top:100;
+}
+#block1Data,#block3Data{
+    width: 700px;
+    height: 200px;
+    position: absolute;
+    top:200;
+    left: -700;
+}
+#block2Data{
+    width: 700px;
+    height: 200px;
+    position: absolute;
+    top:200;
+    right: -700;
+}
+.serviceTitle{
+    font-family: fantasy;
+    color: #303030;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.serviceDetail{
+    font-family: arial;
+    font-size: 12px;
+    color: darkgray;
+    text-align: justify;
+    margin-top: 15px;
+}
+#footer{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top:250%;
+    background-image: url('../Footter.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+#footer table{
+    position: absolute;
+    margin-top: 140px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#footer ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+#footer ul li{
+    display: inline-block;
+    font-family: fantasy;
+    font-size: 14px;
+    color: white;
+    margin-left: 40px;
+}
